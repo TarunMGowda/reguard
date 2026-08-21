@@ -1,0 +1,51 @@
+[
+    {
+        "query_id": "q1",
+        "query": "technical and organizational measures to protect personal data",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "saas_agreement_01",
+            "vendor_agreement_01",
+            "privacy_policy_01",
+            "employee_data_policy_01",
+            "information_security_policy_01"
+        ]
+    },
+    {
+        "query_id": "q2",
+        "query": "processing personal data only for specified purposes",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "vendor_agreement_01",
+            "privacy_policy_01"
+        ]
+    },
+    {
+        "query_id": "q3",
+        "query": "deletion or retention of personal information after services end",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "saas_agreement_01",
+            "vendor_agreement_01"
+        ]
+    },
+    {
+        "query_id": "q4",
+        "query": "disclosure of personal information to third parties",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "vendor_agreement_01",
+            "vendor_agreement_02",
+            "privacy_policy_01",
+            "employee_data_policy_01"
+        ]
+    },
+    {
+        "query_id": "q5",
+        "query": "security incident involving personal data",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "information_security_policy_01"
+        ]
+    }
+]
