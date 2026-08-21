@@ -64,6 +64,36 @@ def recall_at_k(
     return relevant_count / len(relevant)
 
 
+def f1_at_k(
+    retrieved: list[str],
+    relevant: set[str],
+    k: int,
+) -> float:
+    """Calculate F1@K."""
+
+    precision = precision_at_k(
+        retrieved,
+        relevant,
+        k,
+    )
+
+    recall = recall_at_k(
+        retrieved,
+        relevant,
+        k,
+    )
+
+    if precision + recall == 0:
+        return 0.0
+
+    return (
+        2
+        * precision
+        * recall
+        / (precision + recall)
+    )
+
+
 def reciprocal_rank(
     retrieved: list[str],
     relevant: set[str],

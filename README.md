@@ -68,3 +68,81 @@ Reguard will:
 
 Phase 1 - Project foundation and development environment.
 
+
+
+\## Retrieval Approach
+
+
+
+Reguard uses a staged retrieval architecture.
+
+
+
+\### Phase 1 — Traditional Retrieval
+
+
+
+The initial retrieval layer uses:
+
+
+
+\- TF-IDF
+
+\- BM25
+
+\- cosine similarity
+
+\- document-level relevance aggregation
+
+
+
+\### Phase 2 — Semantic Retrieval
+
+
+
+A lightweight locally hosted embedding model will be used to identify
+
+semantically related regulatory requirements and company clauses even
+
+when terminology differs.
+
+
+
+\### Phase 3 — Hybrid Retrieval
+
+
+
+Lexical and semantic scores will be combined to produce a final relevance
+
+ranking.
+
+
+
+\### Phase 4 — LLM Risk Interpretation
+
+
+
+The LLM will not replace the retrieval system.
+
+
+
+Instead, it will interpret the highest-ranked regulatory/document pairs
+
+and produce:
+
+
+
+\- relevance explanation
+
+\- potentially affected clause
+
+\- risk category
+
+\- reasoning
+
+\- recommended review priority
+
+
+
+This separation keeps the system explainable and computationally lightweight.
+

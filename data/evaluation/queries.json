@@ -26,7 +26,9 @@
         "relevant_documents": [
             "data_processing_agreement_01",
             "saas_agreement_01",
-            "vendor_agreement_01"
+            "vendor_agreement_01",
+            "employee_data_policy_01",
+            "privacy_policy_01"
         ]
     },
     {
@@ -37,7 +39,9 @@
             "vendor_agreement_01",
             "vendor_agreement_02",
             "privacy_policy_01",
-            "employee_data_policy_01"
+            "employee_data_policy_01",
+            "saas_agreement_01",
+            "marketing_data_policy_01"
         ]
     },
     {
@@ -45,6 +49,48 @@
         "query": "security incident involving personal data",
         "relevant_documents": [
             "data_processing_agreement_01",
+            "information_security_policy_01"
+        ]
+    },
+    {
+        "query_id": "q6",
+        "query": "access to personal information limited to authorized personnel",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "saas_agreement_01",
+            "employee_data_policy_01",
+            "information_security_policy_01"
+        ]
+    },
+    {
+        "query_id": "q7",
+        "query": "third party processors handling customer data",
+        "relevant_documents": [
+            "data_processing_agreement_01",
+            "saas_agreement_01",
+            "vendor_agreement_01",
+            "marketing_data_policy_01"
+        ]
+    },
+    {
+        "query_id": "q8",
+        "query": "customer information used for marketing and analytics",
+        "relevant_documents": [
+            "marketing_data_policy_01"
+        ]
+    },
+    {
+        "query_id": "q9",
+        "query": "confidential company information disclosure",
+        "relevant_documents": [
+            "vendor_agreement_01",
+            "vendor_agreement_02"
+        ]
+    },
+    {
+        "query_id": "q10",
+        "query": "information security access management and monitoring",
+        "relevant_documents": [
             "information_security_policy_01"
         ]
     }
